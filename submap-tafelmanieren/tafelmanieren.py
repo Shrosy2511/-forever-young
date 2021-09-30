@@ -4,7 +4,7 @@ print('tafels')
 nummer = int(input('kies van welk getal je de tafel wil weten '))
 for i in range(1,11):
     time.sleep(0.2)
-    print(i*nummer)
+    print(str(i) + ' x ' + str(nummer) +' = ' + str(i*nummer))
 
 print('')
 
